@@ -1,8 +1,16 @@
-.fa {
+.fa-brands {
   color: #8b8b8b;!important;
 }
 
-.fa:hover {
+.fa-brands:hover {
+  color: #5c5b5b;!important;
+}
+
+.fa-solid {
+  color: #8b8b8b;!important;
+}
+
+.fa-solid:hover {
   color: #5c5b5b;!important;
 }
 
