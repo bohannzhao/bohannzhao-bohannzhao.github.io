@@ -110,24 +110,24 @@ tr,
 p,
 a {
   font-family: 'Quattrocento Sans', sans-serif, Verdana, Helvetica;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 strong {
   font-family: 'Quattrocento Sans', sans-serif, Verdana, Helvetica;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 h2 {
   margin: 0;
   font-weight: normal;
   font-family: 'Quattrocento Sans', sans-serif, Verdana, Helvetica;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .papertitle {
   font-family: 'Quattrocento Sans', sans-serif, Verdana, Helvetica;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
 }
 
@@ -135,7 +135,7 @@ h2 {
   padding-top: 20px;
   margin: 0;
   font-family: 'Quattrocento Sans', sans-serif, Verdana, Helvetica, sans-serif;
-  font-size: 36px;
+  font-size: 34px;
 }
 
 .one {
