@@ -5,7 +5,7 @@
 body, td, th, tr, p, a, strong, h2, .papertitle, .name {
     font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
-    color: #333; /* Standard text color */
+    color: #3f3f3f; /* Standard text color */
     margin: 0;
     padding: 0;
 }
@@ -37,7 +37,7 @@ j1 {
 
 /* Links */
 a {
-    color: #24678d;
+    color: #1200b0;
     text-decoration: none;
     transition: color 0.2s ease-in-out;
 }
@@ -91,3 +91,20 @@ span.highlight {
     border-radius: 10px;
     background-color: #f5f5f5; /* Light grey background */
 }
+
+
+/* Styles for devices with a maximum width of 768px (e.g., iPhones) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Adjust font size for smaller screens */
+        padding: 10px;   /* Add padding for better readability */
+    }
+
+    .container {
+        width: 100%;    /* Ensure containers take full width on mobile */
+        padding: 0 10px;
+    }
+
+    .papertitle {
+        font-size: 18px; /* Adjust title size for better visibility */
+    }
