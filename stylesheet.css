@@ -1,106 +1,93 @@
-/* Font Awesome Icons */
-.fa-brands,
-.fa-solid,
-.ai {
-  color: #8b8b8b !important;
-  transition: color 0.2s ease-in-out;
+/* Import Ubuntu Font */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+/* Global Styles */
+body, td, th, tr, p, a, strong, h2, .papertitle, .name {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    color: #333; /* Standard text color */
+    margin: 0;
+    padding: 0;
 }
 
-.fa-brands:hover,
-.fa-solid:hover,
-.ai:hover {
-  color: #5c5b5b !important;
+/* Headings */
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #8d2424;
+}
+
+.name {
+    font-size: 34px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+/* Paper Title */
+.papertitle {
+    font-weight: bold;
+    color: #24678d;
+}
+
+j1 {
+    font-style: italic;
+    color: #24678d;
+        }
+
+/* Links */
+a {
+    color: #24678d;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover, a:focus {
+    color: #8d5024;
+}
+
+/* Icon Colors */
+.fa-brands, .fa-solid, .ai {
+    color: #8b8b8b;
+    transition: color 0.2s ease-in-out;
+}
+
+.fa-brands:hover, .fa-solid:hover, .ai:hover {
+    color: #5c5b5b;
 }
 
 /* Container */
 .container-fluid {
-  max-width: 1000px;
-  margin-top: 20px;
-}
-
-/* Typography */
-@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&display=swap');
-
-body,
-td,
-th,
-tr,
-p,
-a,
-strong,
-h2,
-.papertitle,
-.name {
-  font-family: 'Quattrocento Sans', Verdana, Helvetica, sans-serif;
-}
-
-body,
-td,
-th,
-tr,
-p,
-a,
-strong,
-.papertitle {
-  font-size: 14px;
-}
-
-h2 {
-  margin: 0;
-  font-weight: normal;
-  font-size: 22px;
-}
-
-.papertitle {
-  font-weight: 700;
-}
-
-.name {
-  padding-top: 20px;
-  margin: 0;
-  font-size: 34px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 15px;
 }
 
 /* Image Effects */
-.one {
-  width: 160px;
-  height: 160px;
-  position: relative;
+.one, .two {
+    width: 160px;
+    height: 160px;
 }
 
 .two {
-  width: 160px;
-  height: 160px;
-  position: absolute;
-  transition: opacity 0.2s ease-in-out;
+    position: absolute;
+    transition: opacity 0.2s ease-in-out;
 }
 
 .fade {
-  transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
 }
 
 /* Highlight */
 span.highlight {
-  background-color: #ffffd0;
+    background-color: #fafafa;
 }
 
 /* Colored Box */
 .colored-box {
-  color: black;
-  padding: 20px;
-  display: inline-block;
-  border-radius: 10px;
-}
-
-/* Links */
-a {
-  color: #1772d0;
-  text-decoration: none;
-  transition: color 0.2s ease-in-out;
-}
-
-a:focus,
-a:hover {
-  color: #f09228;
-  text-decoration: none;
+    color: #000;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #f5f5f5; /* Light grey background */
 }
